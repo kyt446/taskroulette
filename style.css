@@ -1,150 +1,33 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    line-height: 1.6;
-    background: linear-gradient(135deg, #f0f2f0, #e0e0e0);
-    color: #343a40;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    overflow-x: hidden;
-}
-main {
-    width: 90%;
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    animation: fadeIn 1s ease-in-out;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-    to {
-      opacity: 1;
+    #resultSection {
+        width: 100%;
+        max-width: 500px;
+          margin: 20px auto;
     }
-}
-section {
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 30px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-section:hover {
-    transform: translateY(-5px);
-}
-.hero {
-    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
-}
-.features {
-      background: linear-gradient(to right, #ccdbdc, #def1ee);
-}
-.pricing {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    padding: 20px;
-}
-.pricing div {
-    padding: 25px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
-}
-.pricing div:hover {
-    transform: translateY(-5px);
-}
-h1, h2 {
-    color: #212529;
-    margin-bottom: 15px;
-     font-family: 'Playfair Display', serif;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-}
-h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-}
-button {
-    background-color: #007bff;
-    color: #ffffff;
-    padding: 15px 30px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-     transition: background-color 0.3s ease, transform 0.3s ease;
-}
-button:hover {
-    background-color: #0056b3;
-     transform: scale(1.05);
-}
-ul {
-    list-style: none;
-    margin-left: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-li {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-       border-radius: 8px;
-     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-     transition: transform 0.3s ease;
-}
-li:hover {
-    transform: translateX(5px);
-}
-p {
-    margin-bottom: 15px;
-     line-height: 1.8;
-    font-size: 1.1em;
-}
-hr {
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 30px 0;
-}
-footer {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: #777;
-    padding: 15px 0;
-    width: 100%;
-     border-top: 1px solid #eee;
-    background: #f0f2f0;
-}
-a {
-    color: #28a745;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-a:hover {
-     color: #1e7e34;
-    text-decoration: underline;
-}
-#taskListSection {
-    width: 100%;
-    max-width: 500px;
-    margin: 20px auto;
-}
-#taskList {
-      display: block;
-}
+      #resultText {
+          font-size: 1.5em;
+         text-align: center;
+           margin-bottom: 15px;
+           padding: 20px;
+           border-radius: 8px;
+          transition: opacity 0.5s ease;
+    }
+    ```
+
+**After you have completed these steps:**
+
+1.  **Open `index.html` and replace all code.**
+2.  **Open `script.js` and replace all code.**
+3.   **Open `style.css` and append the code to the end of the existing code.**
+4.  **Commit all Changes.**
+5.  **Wait:** Wait a few minutes for the site to update.
+6.  **Refresh Your Website:** Visit your live website and refresh the page and clear the cache.
+7. **Test** Type in some text into the text field and click "Add Task", verify that they appear on the screen. Then click "Spin The Wheel!" and see if your task displays in the manner we have described!
+
+**Now, please confirm the following:**
+
+*   **Did you replace all the code in your `index.html` and `script.js` files?**
+*   **Did you append the code to the end of your existing `style.css` file?**
+*   **Did you commit all of the changes?**
+*   **Does the "Spin the Wheel!" button now display the result in a fun "spinning" effect?**
+
+This will be a lot of new code, but it will completely change the user experience. I'm very excited to see what you think. Let me know how it goes!
