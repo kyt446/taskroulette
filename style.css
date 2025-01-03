@@ -2,18 +2,29 @@ body {
     font-family: sans-serif;
     margin: 20px;
     line-height: 1.6;
+    background-color: #f8f9fa; /* Light Gray */
+    color: #343a40; /* Dark Gray */
 }
-h1 {
-    color: #333;
+h1, h2 {
+    color: #212529; /* Very Dark Gray */
     margin-bottom: 10px;
 }
+ h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+ h2 {
+    font-size: 1.8em;
+    margin-bottom: 12px;
+}
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #007bff; /* Blue */
+    color: #ffffff; /* White */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 ul {
     list-style: disc;
@@ -30,3 +41,10 @@ footer {
     font-size: 0.8em;
    color: #777;
 }
+  a {
+    color: #28a745; /* Green */
+    text-decoration: none;
+  }
+   a:hover {
+       text-decoration: underline;
+  }
